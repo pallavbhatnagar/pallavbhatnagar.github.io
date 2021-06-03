@@ -35,7 +35,7 @@ body {
 }
 
 /*CUSTOM CSS*/
-.read {
+p.read {
 	font-size: 16.4px !important;
     line-height: 1.6 !important;
 }
