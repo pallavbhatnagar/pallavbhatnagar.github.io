@@ -41,6 +41,10 @@ p.read {
     color: rgb(131 132 133 / 75%)!important;
 }
 
+p.read_about {
+	font-size: 16.3px!important;
+}
+
 .iconbordersize {
 width: 45px!important;
 height: 45px!important;
