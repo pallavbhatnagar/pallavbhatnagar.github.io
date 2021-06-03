@@ -34,6 +34,12 @@ body {
 	padding-left: 8px
 }
 
+p.read_about {
+	font-size: 16.3px!important;
+    line-height: 1.6!important;
+    color: rgb(131 132 133 / 75%)!important;
+}
+
 /*CUSTOM CSS*/
 p.read {
 	font-size: 16.4px!important;
@@ -41,11 +47,7 @@ p.read {
     color: rgb(131 132 133 / 75%)!important;
 }
 
-p.read_about {
-	font-size: 16.3px!important;
-    line-height: 1.6!important;
-    color: rgb(131 132 133 / 75%)!important;
-}
+
 
 .iconbordersize {
 width: 45px!important;
