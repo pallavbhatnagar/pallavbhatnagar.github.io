@@ -38,6 +38,7 @@ body {
 p.read {
 	font-size: 16.4px !important;
     line-height: 1.6 !important;
+    color: #797979e8 !important;
 }
 
 .iconbordersize {
@@ -1219,7 +1220,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.83em;
+	font-size: 1.73em;
 	line-height: 1.69
 }
 
