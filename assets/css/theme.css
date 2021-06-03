@@ -36,9 +36,9 @@ body {
 
 /*CUSTOM CSS*/
 p.read {
-	font-size: 16.4px !important;
+	font-size: 1.15em px !important;
     line-height: 1.6 !important;
-    color: #797979e8 !important;
+    color: #838485 !important;
 }
 
 .iconbordersize {
