@@ -32,6 +32,13 @@ body {
 
 
 /*CUSTOM CSS*/
+
+.heading_paragraph {
+	font-size: 1.50em !important;
+}
+
+
+
 p.read_about {
 	font-size: 16.2px!important;
     line-height: 1.6!important;
