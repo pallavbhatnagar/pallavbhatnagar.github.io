@@ -39,11 +39,11 @@ html {
 
 @media (max-width:480px){
   .container .portfolio-masonry.spacing-0 {
-    margin: 0 -5px -6px;
+    margin: 0 -5px -6px!Important;
   }
 
   .section .padding-top-0 .margin_top_em {
-	margin-top: 8em;
+	margin-top: 8em!Important;
 }
 }
 
