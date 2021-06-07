@@ -5311,7 +5311,7 @@ a[class*=' text-link-']:focus {
 	margin: 0
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
 	.container .portfolio-masonry.spacing-0 {
 		margin: 0 -1px -6px
 	}
