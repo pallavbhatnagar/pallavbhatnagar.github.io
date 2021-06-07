@@ -260,17 +260,7 @@
 		</div>
 		<!-- Complete portfolio section ends  -->
 
-		<script>
-			function checkWidth() {
-		    if ($(window).width() <= 767) {
-		        $('#add_class').addClass('spacing-6');
-		    } else {
-		        $('#menu2').removeClass('f-nav');
-		    }
-		}
-
-		$(window).resize(checkWidth);
-		</script>
+		
 
 		<!-- Footer -->
 		<div class="section-xs border-top">
@@ -313,6 +303,22 @@
 		<script src="assets/js/polyfill.min.js"></script>
 		<script src="assets/js/plugins.js"></script>
 		<script src="assets/js/functions.min.js"></script>
+		<script>
+			$(window).on('resize', function(){
+      var win = $(this);
+      if (win.width() < 750) { 
+
+      $('#add_class').addClass('spacing-6');
+      $('#add_class').removeClass('spacing-0');
+
+      }
+    else
+    {
+  
+    }
+
+});
+		</script>
 
 
 		<!-- Preloader -->
