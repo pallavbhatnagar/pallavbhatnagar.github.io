@@ -32,7 +32,7 @@ body {
 
 /*CUSTOM CSS*/
 
-.section.margin_top_em {
+.section .margin_top_em {
 	margin-top: 4.5em!important;
 }
 
