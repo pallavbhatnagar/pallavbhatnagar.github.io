@@ -42,13 +42,13 @@ html {
     margin: 0 -5px -6px;
   }
 
-  .margin_top_em {
+  .section .padding-top-0 .margin_top_em {
 	margin-top: 8em;
 }
 }
 
 
-.margin_top_em {
+.section .padding-top-0 .margin_top_em {
 	margin-top: 6em;
 }
 
