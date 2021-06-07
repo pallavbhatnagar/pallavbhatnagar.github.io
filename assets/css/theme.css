@@ -37,7 +37,8 @@ html {
 
 /*CUSTOM CSS*/
 
-@media (max-width:480px){
+@media screen and (max-device-width: 480px)
+{
   .container .portfolio-masonry.spacing-0 {
     margin: 0 -5px -6px!Important;
   }
