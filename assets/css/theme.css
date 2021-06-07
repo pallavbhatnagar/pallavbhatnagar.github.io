@@ -41,6 +41,15 @@ html {
   .container .portfolio-masonry.spacing-0 {
     margin: 0 -5px -6px;
   }
+
+  .margin_top_em {
+	margin-top: 8em;
+}
+}
+
+
+.margin_top_em {
+	margin-top: 6em;
 }
 
 
