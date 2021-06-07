@@ -304,21 +304,35 @@
 		<script src="assets/js/plugins.js"></script>
 		<script src="assets/js/functions.min.js"></script>
 		<script>
-			$(window).on('resize', function(){
-      var win = $(this);
-      if (win.width() < 750) { 
+// 			$(window).on('resize', function(){
+//       var win = $(this);
+//       if (win.width() < 750) { 
 
-      $('#add_class').addClass('spacing-6');
-      $('#add_class').removeClass('spacing-0');
+//       $('#add_class').addClass('spacing-6');
+//       $('#add_class').removeClass('spacing-0');
 
-      }
-    else
-    {
+//       }
+//     else
+//     {
   
-    }
+//     }
 
-});
+// });
 		</script>
+		<script>
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    $('#add_class').addClass('spacing-6');
+      $('#add_class').removeClass('spacing-0');
+  } else {
+   
+  }
+}
+
+var x = window.matchMedia("(max-width: 767px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+</script>
 
 
 		<!-- Preloader -->
