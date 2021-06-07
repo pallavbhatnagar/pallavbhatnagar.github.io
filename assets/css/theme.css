@@ -5312,8 +5312,8 @@ a[class*=' text-link-']:focus {
 }
 
 @media (max-width:768px) {
-	.container .portfolio-masonry.spacing-0 {
-		margin: 0 -1px -6px
+	.portfolio-masonry .portfolio-title-overlay .column-3 .spacing-0 {
+		margin: 0 -1px -6px!important;
 	}
 }
 
