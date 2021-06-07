@@ -5307,14 +5307,16 @@ a[class*=' text-link-']:focus {
 	margin: 0 -15px -30px
 }
 
-.container .portfolio-masonry.spacing-0 {
+/*.container .portfolio-masonry.spacing-0 {
 	margin: 0
+}*/
+#spacing-0
+{
+	margin: 0;
 }
 
-@media (max-width:768px) {
-	.portfolio-masonry .portfolio-title-overlay .column-3 .spacing-0 {
-		margin: 0 -1px -6px!important;
-	}
+@media screen and (max-width:768px){
+	#spacing-0 {margin: 0 -1px -6px!important;}
 }
 
 .container .portfolio-masonry.spacing-6 {
