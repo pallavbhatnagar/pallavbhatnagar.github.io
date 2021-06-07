@@ -37,6 +37,13 @@ html {
 
 /*CUSTOM CSS*/
 
+@media only screen and (max-width: 480px) {
+  .container .portfolio-masonry.spacing-0 {
+    margin: 0 -5px -6px;
+  }
+}
+
+
 h6.heading_paragraph {
 	font-size: 1.50em !important;
 }
