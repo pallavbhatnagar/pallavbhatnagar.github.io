@@ -31,30 +31,15 @@ body {
 }
 
 @media (max-width: 767.98px){
-.container .portfolio-masonry.spacing-0 {margin: 0 -3px -6px!Important;}
+.container .portfolio-masonry.spacing-0 {margin: 0 -1px -6px!Important;}
+.section .padding-top-0 .margin_top_em {margin-top: 8em!Important;}
+
 }
-
-html {
-  scroll-behavior: smooth;
-  }
-
 
 /*CUSTOM CSS*/
 
-
-
-
-@media screen and (max-device-width: 480px)
-{
-
-  .section .padding-top-0 .margin_top_em {
-	margin-top: 8em!Important;
-}
-}
-
-
 .section .padding-top-0 .margin_top_em {
-	margin-top: 4.5em;
+	margin-top: 4.5em!important;
 }
 
 
