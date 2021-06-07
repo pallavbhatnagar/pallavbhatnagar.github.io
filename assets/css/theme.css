@@ -32,6 +32,9 @@ body {
 
 
 /*CUSTOM CSS*/
+#work_projects {
+z-index: 10001;
+}
 
 h6.heading_paragraph {
 	font-size: 1.50em !important;
