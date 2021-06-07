@@ -5316,7 +5316,7 @@ a[class*=' text-link-']:focus {
 }
 
 @media screen and (max-width:768px){
-	#spacing-0 {margin: 0 -1px -6px!important;}
+	#spacing-0 {margin: 0 -3px -6px!important;}
 }
 
 .container .portfolio-masonry.spacing-6 {
