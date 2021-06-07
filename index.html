@@ -260,7 +260,15 @@
 		</div>
 		<!-- Complete portfolio section ends  -->
 
+<script type="text/javascript">
 
+   $(window).on('resize', function(){
+              var win = $(this); //this = window
+              if (win.width()<= 767) { $('#spacing-0').removeClass('spacing-0'); 
+              $('#spacing-0').addClass('spacing-6'); }
+         });
+
+     </script>
 
 		<!-- Footer -->
 		<div class="section-xs border-top">
