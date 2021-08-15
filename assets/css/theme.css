@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900);
 html,
 body {
-	zoom: 98% !important;
-	-moz-transform: scale(0.98);
+	zoom: 96% !important;
+	-moz-transform: scale(0.96);
 	overflow-x: hidden;
 	position: relative;
 	z-index: 1;
