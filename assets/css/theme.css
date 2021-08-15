@@ -4041,7 +4041,7 @@ a[class*=' text-link-']:focus {
 	left: 0;
 	background: #131415;
 	width: 100%;
-	height: 1.9px;
+	height: 1.9px !important;
 	border-radius: 2px;
 	-webkit-transition: linear 0.1s;
 	transition: linear 0.1s
