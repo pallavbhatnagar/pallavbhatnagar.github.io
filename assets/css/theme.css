@@ -9,6 +9,10 @@ body {
 	min-height: 100%
 	scroll-behavior: smooth;
 }
+.zoom {
+zoom: 90%;
+-moz-transform: scale(0.90);
+}
 
 .container,
 .container-fluid {
