@@ -9,9 +9,9 @@ body {
 	min-height: 100%
 	scroll-behavior: smooth;
 }
-.zoom1 {
-zoom: 80% !important;
--moz-transform: scale(0.80);
+.page_zoom {
+zoom: 50% !important;
+-moz-transform: scale(0.50);
 }
 
 .container,
