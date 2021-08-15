@@ -10,8 +10,8 @@ body {
 	scroll-behavior: smooth;
 }
 .zoom1 {
-zoom: 50% !important;
--moz-transform: scale(0.90);
+zoom: 80% !important;
+-moz-transform: scale(0.80);
 }
 
 .container,
