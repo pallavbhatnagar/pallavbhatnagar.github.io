@@ -40,7 +40,7 @@ body {
 }
 
 .font_size_change{
-	font-weight: 650;
+	font-weight: 650!important;
 }
 
 .font_size_change_sub {
