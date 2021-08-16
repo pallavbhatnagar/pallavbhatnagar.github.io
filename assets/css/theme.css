@@ -5830,12 +5830,13 @@ body.loaded:after {
 
 .preloader div .loader-path {
 	fill: none;
-	stroke: #131415;
-	stroke-width: 50;
-	stroke-dasharray: 50, 200;
-	stroke-dashoffset: 50;
+	/*stroke: #131415;*/
+	stroke: rgb(55, 53, 47);
+	stroke-width: 4;
+	stroke-dasharray: 1, 200;
+	stroke-dashoffset: 0;
 	stroke-linecap: round;
-	stroke-miterlimit: 50;
+	stroke-miterlimit: 10;
 	animation: loader-dash 1.5s ease-in-out infinite
 }
 
