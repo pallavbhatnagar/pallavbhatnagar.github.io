@@ -5831,8 +5831,8 @@ body.loaded:after {
 .preloader div .loader-path {
 	fill: none;
 	stroke: #131415;
-	stroke-width: 3;
-	stroke-dasharray: 3, 200;
+	stroke-width: 50;
+	stroke-dasharray: 50, 200;
 	stroke-dashoffset: 0;
 	stroke-linecap: round;
 	stroke-miterlimit: 10;
