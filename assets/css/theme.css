@@ -5832,7 +5832,7 @@ body.loaded:after {
 	fill: none;
 	/*stroke: #131415;*/
 	stroke: rgb(55, 53, 47);
-	stroke-width: 4;
+	stroke-width: 3;
 	stroke-dasharray: 1, 200;
 	stroke-dashoffset: 0;
 	stroke-linecap: round;
