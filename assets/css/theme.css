@@ -5902,7 +5902,8 @@ body.loaded:after {
 
 .section-lg {
 	
-	padding: 140px 0
+	/*padding: 140px 0*/
+	padding: 10em 0
 }
 
 .section-lg.bg-image .container,
