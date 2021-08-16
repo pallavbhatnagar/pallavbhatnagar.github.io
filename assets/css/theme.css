@@ -39,6 +39,10 @@ body {
 	margin-top: 6em!important;
 }
 
+.font_size_change{
+	font-weight: 650;
+}
+
 .font_size_change_sub {
 font-size: 3.33em !important;
 color: rgb(55, 53, 47);
@@ -49,7 +53,7 @@ font-weight: 700;
 { 
 .loaded > .margin_top_em.padding-top-0.section {margin-top: 8em!important;}
 .div#spacing-0 {margin: 0 -3px -6px !important;}
-.font_size_change {font-size: 4.25em !important;}
+.font_size_change {font-size: 4.25em !important;font-weight: 650!important;}
 .font_size_change_sub {font-size: 2.83em !important;font-weight: 700;}
 }
 
