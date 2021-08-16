@@ -5833,9 +5833,9 @@ body.loaded:after {
 	stroke: #131415;
 	stroke-width: 50;
 	stroke-dasharray: 50, 200;
-	stroke-dashoffset: 0;
+	stroke-dashoffset: 50;
 	stroke-linecap: round;
-	stroke-miterlimit: 10;
+	stroke-miterlimit: 50;
 	animation: loader-dash 1.5s ease-in-out infinite
 }
 
