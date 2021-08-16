@@ -2214,7 +2214,8 @@ a.button-circle-dark:focus {
 
 .button-circle-black,
 a.button-circle-black {
-	background: #000;
+	/*background: #000;*/
+	background: rgb(55, 53, 47);
 	color: #fff
 }
 
