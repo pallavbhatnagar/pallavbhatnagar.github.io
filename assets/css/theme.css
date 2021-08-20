@@ -68,18 +68,23 @@ background-color: #EDECE9;
 cursor: pointer;
 }
 
- .blog_page_link {
+.blog_page_link {
  	font-weight: 400;
  	text-underline-offset: 3px;
  	 cursor: pointer;
  }
 
- .blog_link_color {
+.blog_link_color {
  	text-decoration-color: rgba(55, 53, 47, 0.16);
  }
 
 .height_control{
 line-height: 1.5 !important;
+}
+
+.section-lg_10{
+	padding: 10em 0 !important;
+	padding-bottom: 14em !important;
 }
 
 p.read_about {
