@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900);
 html,
 body {
-	zoom: 95% !important;
+	zoom: 96% !important;
 	-moz-transform: scale(0.96);
 	overflow-x: hidden;
 	position: relative;
@@ -63,7 +63,9 @@ h6.heading_paragraph {
 	font-size: 1.50em !important;
 }
 
-
+.hover_change_color:hover { 
+background-color: #EDECE9;
+ }
 
 p.read_about {
 	font-size: 16px!important;
