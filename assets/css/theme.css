@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900);
 html,
 body {
-	zoom: 96% !important;
-	-moz-transform: scale(0.96);
+	zoom: 95.5% !important;
+	-moz-transform: scale(0.955);
 	overflow-x: hidden;
 	position: relative;
 	z-index: 1;
@@ -65,7 +65,22 @@ h6.heading_paragraph {
 
 .hover_change_color:hover { 
 background-color: #EDECE9;
+cursor: pointer;
+}
+
+ .blog_page_link {
+ 	font-weight: 400;
+ 	text-underline-offset: 3px;
+ 	 cursor: pointer;
  }
+
+ .blog_link_color {
+ 	text-decoration-color: rgba(55, 53, 47, 0.16);
+ }
+
+.height_control{
+line-height: 1.5 !important;
+}
 
 p.read_about {
 	font-size: 16px!important;
