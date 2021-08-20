@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900);
 html,
 body {
-	zoom: 96% !important;
+	zoom: 94% !important;
 	-moz-transform: scale(0.96);
 	overflow-x: hidden;
 	position: relative;
@@ -66,7 +66,7 @@ h6.heading_paragraph {
 
 
 p.read_about {
-	font-size: 17px!important;
+	font-size: 16px!important;
     line-height: 1.6!important;
     color: rgb(131 132 133 / 75%)!important;
 }
