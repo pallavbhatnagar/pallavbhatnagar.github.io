@@ -56,7 +56,7 @@
             <div id="player-to-be-show-when-online" class="player hidden">
               <audio id="player2" preload="none" controls style="max-width: 100%">
                 <!-- <source src="http://helloworld1234.ddns.net:8000/stream" type="audio/mpeg"> -->
-                  <source src="http://localhost:8000/stream.ogg" type="audio/mpeg">
+                  <source src="http://helloworld1234.ddns.net:8000/stream.ogg" type="audio/mpeg">
 
               </audio>
               
@@ -112,7 +112,7 @@
     }
 
     function songInfoApiCall(songInfoPollInterval) {
-      timeout(5000, fetch('http://localhost:8000/status-json.xsl'))
+      timeout(5000, fetch('http://helloworld1234.ddns.net:8000/status-json.xsl'))
       // timeout(5000, fetch('http://helloworld1234.ddns.net:8000/status-json.xsl'))
       .then(function(res) {
         return res.json();
