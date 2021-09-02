@@ -2371,7 +2371,6 @@ a.button-circle-outline-white-2:focus {
 .button-circle-hover-slide:hover i:first-child {
 	-webkit-animation: button-slide-out 0.24s ease-out both;
 	animation: button-slide-out 0.24s ease-out both
-	color: white !important;
 }
 
 .button-circle-hover-slide:hover i:last-child {
