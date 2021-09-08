@@ -5527,7 +5527,8 @@ a[class*=' text-link-']:focus {
 	left: 0;
 	visibility: hidden;
 	opacity: 0;
-	background: rgba(19, 20, 21, .6);
+	/*background: rgba(19, 20, 21, .6);*/
+	background: rgba(19, 20, 21, .9);
 	-webkit-transition: ease-out 0.16s;
 	transition: ease-out 0.16s
 }
