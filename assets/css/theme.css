@@ -145,6 +145,11 @@ line-height: 44px!important;
 .ls_1{
 letter-spacing: 0.5px !important;
 line-height: 1.4 !important;
+font-size: 1.3em !important;
+}
+
+.linehgt_5 {
+	line-height: 5 !important;
 }
 
 /*CUSTOM CSS*/
