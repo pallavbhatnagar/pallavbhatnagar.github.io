@@ -60,7 +60,7 @@ font-weight: 700;
 .div#spacing-0 {margin: 0 -3px -6px !important;}
 .font_size_change {font-size: 4.00em !important;font-weight: 650!important;}
 .font_size_change_sub {font-size: 2.83em !important;font-weight: 700;}
-.position_image {float: none!important;position: absolute!important;opacity: 0.04!important;}
+.position_image {float: none!important;position: absolute!important;opacity: 0.03!important;}
 }
 
 
@@ -5540,7 +5540,8 @@ a[class*=' text-link-']:focus {
 	opacity: 0;
 	/*background: rgba(19, 20, 21, .6);*/
 	/*background: rgba(0,0,0, .9);*/
-	background: rgb(24 24 24 / 98%);
+	background: rgb(48,46,42,.98);
+	/*background: rgb(24 24 24 / 98%);*/
 	-webkit-transition: ease-out 0.16s;
 	transition: ease-out 0.16s
 }
