@@ -38,7 +38,7 @@ body {
 .bottom_padding {padding: 50px 0 !important;}
 
 .loaded > .margin_top_em.padding-top-0.section {
-	margin-top: 8em!important;
+	margin-top: 12em!important;
 }
 
 
@@ -58,14 +58,16 @@ font-weight: 700;
 
 @media (max-width:768px) 
 { 
-.loaded > .margin_top_em.padding-top-0.section {margin-top: 10em!important;}
+.loaded > .margin_top_em.padding-top-0.section {margin-top: 6.5em!important;}
 .div#spacing-0 {margin: 0 -3px -6px !important;}
-.font_size_change {font-size: 4.00em !important;font-weight: 650!important;}
+.font_size_change {font-size: 3.6em !important;font-weight: 650!important;}
 .font_size_change_sub {font-size: 2.83em !important;font-weight: 700;}
 .position_image {float: none!important;position: absolute!important;opacity: 0.02!important;}
 }
 
-
+@media (max-width:1200px) 
+{.dropline{display: none;}
+}
 
 h6.heading_paragraph {
 	font-size: 1.50em !important;
@@ -96,9 +98,10 @@ line-height: 1.5 !important;
 }
 
 p.read_about {
-	font-size: 16px!important;
-    line-height: 1.6!important;
-    color: rgb(101 101 101)!important;
+	font-size: 17px!important;
+    /*line-height: 1.6!important;*/
+    font-weight: 400;
+    color: rgb(101 101 101 / 80%)!important;
 }
 
 p.read {
@@ -8457,3 +8460,7 @@ body.loaded:after {
   padding: 20px;
   margin-bottom: 15px;
 }
+.hero_banner_text{
+padding: 8em 0;
+}
+
