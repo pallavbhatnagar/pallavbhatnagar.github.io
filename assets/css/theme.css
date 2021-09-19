@@ -35,6 +35,8 @@ body {
 
 /*CUSTOM CSS*/
 
+.bottom_padding {padding: 50px 0 !important;}
+
 .loaded > .margin_top_em.padding-top-0.section {
 	margin-top: 8em!important;
 }
@@ -4078,7 +4080,7 @@ a[class*=' text-link-']:focus {
 	/*background: #131415;*/
 	background: #37352f;
 	width: 100%;
-	height: 2px;
+	height: 1.9px;
 	border-radius: 2px;
 	-webkit-transition: linear 0.1s;
 	transition: linear 0.1s
@@ -8426,4 +8428,32 @@ body.loaded:after {
 	-webkit-transform: translateY(-10px);
 	transform: translateY(-10px);
 	margin-bottom: -10px
+}
+
+
+/*Custom CSS*/
+.bottom_padding {padding: 56px 0 !important;}
+.ribbon_text{width: 100%;margin: 0;padding: 1em;background-color:#feb597;color:black;font-weight: 400;text-align: center;}
+.ribbon_text a.onhover:hover {color:white;}
+.ribbon_text a.onhover {color:black;}
+.closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s !important;
+}
+.closebtn:hover {
+  color: white;
+}
+.alert {
+  opacity: 1;
+  transition: opacity 0.6s; /* 600ms to fade out */
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 20px;
+  margin-bottom: 15px;
 }
