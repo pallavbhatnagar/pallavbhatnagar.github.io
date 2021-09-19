@@ -8468,4 +8468,15 @@ padding: 8em 0;
     .responsive_font_size {
         font-size: 5em !important;
     }
-}​
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:rgb(55, 53, 47);
+  height: 1px;
+  opacity: 0.2;
+  margin-bottom: 3rem!important;
+}
