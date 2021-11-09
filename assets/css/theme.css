@@ -98,9 +98,9 @@ line-height: 1.5 !important;
 }
 
 p.read_about {
-	font-size: 17px!important;
+	font-size: 1.2em!important;
     /*line-height: 1.6!important;*/
-    font-weight: 400;
+    font-weight: 350;
     color: rgb(101 101 101 / 80%)!important;
 }
 
