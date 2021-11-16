@@ -1412,7 +1412,7 @@ p {
 }
 
 .font-small {
-	font-size: 1em;
+	font-size: .86em;
 	line-height: 1.76
 }
 
@@ -8485,4 +8485,8 @@ hr {
   opacity: 0.2;
   margin-bottom: 3rem!important;
   /*margin-top: 3rem!important;*/
+}
+
+.font_category {
+	font-size: 0.95em;
 }
