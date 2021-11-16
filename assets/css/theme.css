@@ -1412,8 +1412,7 @@ p {
 }
 
 .font-small {
-	font-size: .1em;
-	
+	font-size: 1em;
 	line-height: 1.76
 }
 
