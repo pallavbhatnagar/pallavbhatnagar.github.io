@@ -8490,3 +8490,8 @@ hr {
 .font_category {
 	font-size: 0.95em;
 }
+
+.disclaimer {
+	text-align: justify;
+	color:  #bbbbbb;
+}
