@@ -8496,3 +8496,9 @@ hr {
 	text-align: justify;
 	color:  #bbbbbb;
 }
+
+.justified_center
+{
+	display: flex;
+	justify-content: center;
+}
