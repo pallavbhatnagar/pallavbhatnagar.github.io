@@ -102,6 +102,7 @@ p.read_about {
     /*line-height: 1.6!important;*/
     font-weight: 400;
     color: rgb(101 101 101 / 80%)!important;
+    line-height: 1.6!important;
 }
 
 p.read {
@@ -8497,6 +8498,7 @@ hr {
 .disclaimer {
 	text-align: justify;
 	color:  #bbbbbb;
+	line-height: 1.5!important;
 }
 
 .justified_center
@@ -8505,7 +8507,7 @@ hr {
 	justify-content: center;
 }
 
-.h2{
-	font-size: 2em !important;
-	font-weight: 650 !important;
-}
+.flow_heading{
+	font-size: 1.5em;line-height: 1.4;color:black;font-weight: 600;}
+
+.flow_subheading { color:black;font-weight: 400; }	
