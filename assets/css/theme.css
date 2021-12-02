@@ -3676,7 +3676,8 @@ button.mfp-close:hover {
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
-	background: rgba(19, 20, 21, .6);
+	/*background: rgba(19, 20, 21, .6);*/
+	background: rgb(71 71 71 / 60%);
 	height: 28px;
 	width: auto;
 	border-radius: 20px;
