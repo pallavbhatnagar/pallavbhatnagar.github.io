@@ -8499,7 +8499,7 @@ body.loaded:after {
 /*Custom CSS*/
 .hero_banner_text{
 /*padding: 8em 0;*/
-padding: 12vh 0;
+padding: 14vh 0;
 }
 
 @media (max-width:1199px) and (min-width:768px) {
@@ -8594,5 +8594,9 @@ padding: 0px !important;
 }
 .bottom_footer_text{
 font-size: 1.3em;
+}
+
+.card_heading{
+font-size: 1.3em !important;
 }
 }
