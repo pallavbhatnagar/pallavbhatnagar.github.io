@@ -13,6 +13,8 @@ body {
 }
 
 
+
+
 .container,
 .container-fluid {
 	position: relative;
@@ -35,10 +37,11 @@ body {
 
 /*CUSTOM CSS*/
 
+
 .bottom_padding {padding: 50px 0 !important;}
 
 .loaded > .margin_top_em.padding-top-0.section {
-	margin-top: 10em!important;
+	margin-top: 5em!important;
 }
 
 
@@ -153,7 +156,7 @@ line-height: 44px!important;
 letter-spacing: 0.5px !important;
 line-height: 1.9 !important;
 font-size: 1em !important;
-font-weight: 700!important;
+/*font-weight: 700!important;*/
 }
 
 .linehgt_5 {
@@ -192,6 +195,7 @@ flex-direction: column;
 	margin-top: 3em!important;
 }
 /*CUSTOM CSS*/
+
 
 @media (min-width:768px) {
 	.col-spacing-70 .row:not([class^="col-spacing-"]):not([class*=" col-spacing-"]),
@@ -1745,7 +1749,30 @@ i {
 
 .hover-shadow:hover {
 	-webkit-box-shadow: 0 0 36px 0 rgba(24, 27, 30, .14);
-	box-shadow: 0 0 36px 0 rgba(24, 27, 30, .14)
+	box-shadow: 0 0 36px 0 rgba(24, 27, 30, .14);
+	background-color:  #191919;
+	color: white;
+}
+
+.hover-shadow:hover p {
+	color: white !important;
+}
+
+.hover-shadow:hover h5 {
+	color: white;
+}
+.hover-shadow:hover a {
+	color: white;
+}
+.hover-shadow:hover i {
+	color: white;
+}
+.hover-shadow:hover .button-text-1:after {
+	background: white;
+}
+
+.hover-shadow:hover .button-text-1:before {
+	background: rgb(216 216 216 / 10%);
 }
 
 .hover-float {
@@ -2301,7 +2328,7 @@ a.button-circle-dark:focus {
 
 .button-circle-black,
 a.button-circle-black {
-	background: #000;
+	background: #191919;
 	/*color: #fff;*/
 	color: white !important;
 }
@@ -5411,7 +5438,7 @@ a[class*=' text-link-']:focus {
 }
 
 .container .portfolio-masonry.spacing-0 {
-	margin: 0
+	margin: 0 0px !important;
 }
 
 
@@ -5601,7 +5628,7 @@ a[class*=' text-link-']:focus {
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	padding: 30px;
-	text-align: center;
+	/*text-align: center;*/
 	color: rgba(255, 255, 255, .7)
 }
 
@@ -8514,3 +8541,42 @@ hr {
 
 .flow_subheading { color:black;font-weight: 400; }	
 .margin_top_14 {margin-top: 14em !important;}
+
+
+
+.responsive_making
+{
+margin: 5px;
+}
+
+.responsive_making2
+{
+padding: 5px !important;
+}
+
+.text-left-center
+{
+	text-align: center;!important;
+}
+
+@media (max-width:767px) {
+
+.text-left-center{
+text-align: left!important;
+}
+
+.bottom-margin-1em{
+	margin-bottom: 1em;
+
+}	
+
+.responsive_making
+{
+margin: 0px !important;
+}
+
+.responsive_making2
+{
+padding: 0px !important;
+}
+}
