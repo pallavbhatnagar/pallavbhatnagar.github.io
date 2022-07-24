@@ -8565,7 +8565,7 @@ padding: 5px !important;
 }
 
 .bottom_footer_text{
-font-size: 1.4em;
+font-size: 1.3em;
 }
 
 @media (max-width:767px) {
@@ -8600,3 +8600,17 @@ font-size: 1.3em;
 font-size: 1.3em !important;
 }
 }
+
+.text-opacity{
+	opacity: 0.7;
+}
+
+/*Arrow-animation*/
+/*i[class*="arrow_animation-"] {
+  display: inline-block!important;
+  transition: transform 0.2s ease;
+}
+i[class*="arrow_animation-"]:hover {
+  transform: translateX(10px);
+}*/
+/*Arrow-animation ends*/
