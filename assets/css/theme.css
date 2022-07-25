@@ -8599,12 +8599,23 @@ font-size: 1.3em;
 .card_heading{
 font-size: 1.3em !important;
 }
+
+
+.button-phone
+{
+	font-size: 12px !important;
+}
 }
 
 .text-opacity{
 	opacity: 0.7;
 }
 
+
+.defined-border
+{
+	border: 1px solid #8787871f!important;
+}
 /*Arrow-animation*/
 /*i[class*="arrow_animation-"] {
   display: inline-block!important;
