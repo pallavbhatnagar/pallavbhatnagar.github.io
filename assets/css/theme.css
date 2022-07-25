@@ -8561,7 +8561,7 @@ padding: 5px !important;
 
 .card_text{
 	color: rgb(101 101 101 / 80%)!important;
-	font-size: 1.12em!important;
+	font-size: 1.05em!important;
 }
 
 .bottom_footer_text{
@@ -8626,6 +8626,8 @@ font-size: 1.3em;
 {
 	border: 1px solid #8787871f;
 }
+
+
 /*Arrow-animation*/
 /*i[class*="arrow_animation-"] {
   display: inline-block!important;
