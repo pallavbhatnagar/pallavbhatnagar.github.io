@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900);
 html,
 body {
-	zoom: 97% !important;
-	-moz-transform: scale(0.97);
+	zoom: 95% !important;
+	-moz-transform: scale(0.95);
 	overflow-x: hidden;
 	position: relative;
 	z-index: 1;
@@ -41,7 +41,7 @@ body {
 .bottom_padding {padding: 50px 0 !important;}
 
 .loaded > .margin_top_em.padding-top-0.section {
-	margin-top: 5em!important;
+	margin-top: 7em!important;
 }
 
 
@@ -50,7 +50,7 @@ color: white !important;
 }
 
 .font_size_change{
-	font-weight: 630!important;
+	font-weight: 730!important;
 }
 
 .font_size_change_sub {
@@ -186,8 +186,8 @@ flex-direction: column;
 
 .hover_text_style {
 	/*color:  white;*/
-	font-size: 1.3em!important;
-	font-weight: 500!important;
+	font-size: 3.3em!important;
+	font-weight: 700!important;
 	line-height: 1.3!important;
 }
 
@@ -2720,8 +2720,8 @@ a.button-hover-shrink:focus {
 .button-hover-shrink.button-circle:focus,
 a.button-hover-shrink.button-circle:hover,
 a.button-hover-shrink.button-circle:focus {
-	-webkit-transform: scale(.96);
-	transform: scale(.96)
+	-webkit-transform: scale(.95);
+	transform: scale(.95)
 }
 
 .button-border-2,
@@ -8499,7 +8499,7 @@ body.loaded:after {
 /*Custom CSS*/
 .hero_banner_text{
 /*padding: 8em 0;*/
-padding: 14vh 0;
+padding: 15vh 0;
 }
 
 @media (max-width:1199px) and (min-width:768px) {
@@ -8546,12 +8546,13 @@ hr {
 
 .responsive_making
 {
-margin: 5px;
+margin-top: 1em;
+margin-bottom: 1em;
 }
 
 .responsive_making2
 {
-padding: 5px !important;
+padding: 1em !important;
 }
 
 .text-left-center
@@ -8610,7 +8611,12 @@ font-size: 1.3em;
 
 	.defined-border
 	{
-		border: 1px solid #2828281f!important;
+		border: 2px solid #2828281f!important;
+	}
+
+	.hover_text_style
+	{
+		font-size: 1.3em !important;
 	}
 }
 
@@ -8624,9 +8630,18 @@ font-size: 1.3em;
 
 .defined-border
 {
-	border: 1px solid #8787871f;
+	border: 1px solid #0000001f;
 }
 
+.button-onhover-linecolor:after
+{
+	background:white !important;
+}
+
+.button-onhover-linecolor:before
+{
+	background:#ffffff73 !important;
+}
 
 /*Arrow-animation*/
 /*i[class*="arrow_animation-"] {
