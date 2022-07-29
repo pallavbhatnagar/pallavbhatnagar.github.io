@@ -8701,5 +8701,17 @@ height: 100% !important;
 		width:100%;
 		margin-top: 2em;
 	}	
+}
 
+
+@media (max-width:767px) 
+{
+.mobile-only
+{
+height: 70vh !important;object-fit: cover !important;
+}
+.mobile-only-space
+{
+	margin-top: 1em;
+}
 }
