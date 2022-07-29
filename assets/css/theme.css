@@ -8609,15 +8609,12 @@ font-size: 1.3em;
 		font-size: 12px !important;
 	}
 
-	.defined-border
-	{
-		border: 2px solid #2828281f!important;
-	}
-
+	
 	.hover_text_style
 	{
 		font-size: 1.3em !important;
 	}
+
 }
 
 
@@ -8630,7 +8627,7 @@ font-size: 1.3em;
 
 .defined-border
 {
-	border: 1px solid #0000001f;
+	border: 2px solid #2828281f!important;
 }
 
 .button-onhover-linecolor:after
@@ -8643,6 +8640,8 @@ font-size: 1.3em;
 	background:#ffffff73 !important;
 }
 
+
+
 /*Arrow-animation*/
 /*i[class*="arrow_animation-"] {
   display: inline-block!important;
@@ -8652,3 +8651,55 @@ i[class*="arrow_animation-"]:hover {
   transform: translateX(10px);
 }*/
 /*Arrow-animation ends*/
+
+.flexbox_width1
+{
+width: 68%;
+}
+.flexbox_width2
+{
+width:32%;
+}
+.adjust_height
+{
+height: 100% !important;
+}
+.table_view
+{
+	display:flex;
+}
+
+.community_headline
+{
+	font-size: 3.8em;
+}
+
+@media (max-width:767px) 
+{
+	.breakpoint_margin_top_10
+		{
+		margin-top: 3em;
+		}	
+
+	.community_headline
+	{
+		font-size: 3.3em;
+	}
+
+	.table_view
+		{
+		display:block;
+		}
+
+	.flexbox_width1 
+		{
+		width:100%;
+		}
+
+	.flexbox_width2
+	{
+		width:100%;
+		margin-top: 2em;
+	}	
+
+}
