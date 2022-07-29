@@ -8674,6 +8674,11 @@ height: 100% !important;
 	font-size: 3.8em;
 }
 
+.quote_line_height
+{
+line-height: 2.5;
+}
+
 @media (max-width:767px) 
 {
 	.breakpoint_margin_top_10
@@ -8700,18 +8705,24 @@ height: 100% !important;
 	{
 		width:100%;
 		margin-top: 2em;
+	}
+
+	.mobile-only
+	{
+		height: 70vh !important;
+		object-fit: cover !important;
+	}
+
+	.mobile-only-space
+	{
+		margin-top: 1em;
+	}
+
+	.quote_line_height
+	{
+		line-height: 1.5;
+		margin-top: 1em;
 	}	
 }
 
 
-@media (max-width:767px) 
-{
-.mobile-only
-{
-height: 70vh !important;object-fit: cover !important;
-}
-.mobile-only-space
-{
-	margin-top: 1em;
-}
-}
